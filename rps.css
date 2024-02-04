@@ -1,0 +1,32 @@
+.container{
+    display:grid;
+    row-gap: 1.5rem;
+    justify-content: center;
+    background-color: rgb(147, 144, 138);
+}
+h1{
+    color: rgb(197, 30, 30);
+}
+.container div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 3em;
+}
+div span{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin:0.5em;
+    color: rgb(16, 13, 13);
+}
+div button{
+    font-size: 1.5em;
+    padding: 0.5em 0.6em;
+    margin: 0.5em;
+    border-radius: 1.5em;
+    background-color: rgb(15, 15, 15);
+}
+#display{
+    font-size: 1em;
+}

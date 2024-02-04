@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>ROCK PAPER SCISSOR GAME</h1>
+        <div>
+            <span id="win">win:000</span>
+            <span id="lose">lose:000</span>
+            <span id="tie">tie:000</span>
+        </div>
+        
+        <button onclick="userInput('rock');">✊</button>
+        <button onclick="userInput('paper');">✋</button>
+        <button onclick="userInput('scissor');">✌️</button>
+        <button id="reset" onclick="reset();">🗑️</button>
+        <button id="autoplay" onclick="autoplay()">▶️</button>
+    </div>
+
+</body>
+<script src="rps.js"></script>
+
+</html>
